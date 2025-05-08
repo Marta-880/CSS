@@ -1,0 +1,116 @@
+
+
+Body{
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+    font-family: "Inter", sans-serif;
+
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    
+    .card{
+        box-sizing: border-box;
+        height: 700px;
+        width: 400px;
+        background-color: white;
+        position: relative;
+        border-radius: 16px;
+        
+        
+    }
+
+
+    .card__top{ 
+        box-sizing: border-box;
+    position: absolute;
+        height: 80%;
+        width: 100%;
+    display: flex;
+    background-image: linear-gradient(to top right, red, orange );
+    border-radius: 16px 16px 0px 0px;
+    flex-direction: column;
+    padding: 8px 16px;
+    justify-content: flex-start;
+    
+
+    
+}
+
+    .card__logo{
+        
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        color: white;
+        font-size: 25px;
+        height: 10%;
+        width: 100%;
+
+    }
+    .card__text{
+        color: white;
+        font-size: 17px;
+    }
+    .efeitos{
+        
+        color: white;
+        font-size: 300px;
+        opacity: 50%;
+        display: flex;
+        position: absolute;
+        bottom: 0;
+        right: -50PX;  
+        overflow: hidden;
+        box-sizing: border-box;
+        
+        
+    }
+    .card__bottom{
+        height: 20%;
+        width: 100%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        bottom: 0%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .button{
+        border-color: blue;
+        font-size: 15px;
+        border-radius: 20px;
+        padding: 10px 30px;
+        color: blue;
+        margin-bottom:20px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        position: relative;
+        z-index: 2;
+
+
+    }
+    .button {
+        background-color: white; 
+        color: blue; 
+       
+      }
+
+      .button:hover {
+        background-color: blue;
+        color: white;
+      }
+      
+    .Category{
+        opacity: 60%;
+        
+        letter-spacing: 7px;
+    }
+    .sapatilha{
+        position: relative;
+        transform: translate(50px, 250px);
+    }
+}
