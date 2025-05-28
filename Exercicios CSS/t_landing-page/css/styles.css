@@ -1,0 +1,315 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.bg-gray {
+  background: #fbfbfb;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: gainsboro;
+}
+a:hover {
+  cursor: pointer;
+}
+
+html {
+  font-size: 100%;
+} /*16px*/
+body {
+  background: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #000000;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 1rem 0 0.38rem;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 4.209rem;
+}
+
+h2 {
+  font-size: 3.157rem;
+}
+
+h3 {
+  font-size: 2.369rem;
+}
+
+h4 {
+  font-size: 1.777rem;
+}
+
+h5 {
+  font-size: 1.333rem;
+}
+
+small, .text_small {
+  font-size: 0.75rem;
+}
+
+.subtitle {
+  max-width: 75ch;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-top {
+  text-align: top;
+}
+
+@media all and (max-width: 768px) {
+  h1 {
+    font-size: 2.1045rem;
+  }
+  h2 {
+    font-size: 2.8413rem;
+  }
+  h3 {
+    font-size: 1.6583rem;
+  }
+  h4 {
+    font-size: 1.2439rem;
+  }
+  h5 {
+    font-size: 1rem;
+  }
+}
+html, body {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: white;
+}
+body .button {
+  height: 35px;
+  width: 75px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+}
+body .butBlack {
+  background-color: black;
+  color: antiquewhite;
+}
+body .butWhite {
+  background-color: white;
+}
+body .header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-height: 50px;
+  padding: 1rem;
+}
+body .header .logo {
+  max-height: 50px;
+}
+body .header .menu {
+  overflow: hidden;
+  font-size: small;
+}
+body .header .menu .menuOption {
+  color: black;
+  padding: 0.3rem;
+}
+body .header .cola {
+  justify-content: right;
+  align-items: center;
+  display: flex;
+  padding: 1rem;
+  gap: 0.12rem;
+}
+body .header .cola1 {
+  gap: 3rem;
+}
+body .linha {
+  border-top: 3px solid #dbdbdb;
+}
+body .titlecard {
+  text-align: center;
+  padding-top: 20px;
+  max-width: 600px; /* controla largura máxima */
+  margin: 20px auto; /* centraliza com margens automáticas */
+  text-align: center;
+}
+body .title {
+  font-weight: bold;
+}
+body .text01 {
+  display: block;
+}
+body .but02 {
+  width: 90px;
+  height: 35px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+}
+body .but03 {
+  width: 100px;
+  height: 35px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+}
+body .cola2 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 1rem;
+  gap: 0.12rem;
+}
+body .butBlue {
+  background-color: rgb(35, 137, 221);
+  color: antiquewhite;
+}
+body .vidOverlay {
+  position: relative;
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 500px; /* vídeo não fica maior que isso */
+  margin: 0 auto; /* centraliza dentro do titlecard */
+}
+body .video {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .button04 {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%); /* foi preciso para ficar exatamente ao centro */
+  z-index: 2;
+  padding: 10px 15px;
+  background-color: rgb(35, 137, 221);
+  color: antiquewhite;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  font-size: 14px;
+}
+body .space {
+  text-align: center;
+  padding-top: 40px;
+  max-width: 600px; /* controla largura máxima */
+  margin: 20px auto; /* centraliza com margens automáticas */
+  text-align: center;
+}
+body .img2 {
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 500px; /* imagem não fica maior que isso */
+  margin: 0 auto; /* centraliza dentro do space */
+}
+body .vidBack {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  max-height: 200px;
+  width: 100%;
+}
+body .vidBackground {
+  position: absolute;
+  z-index: 0;
+}
+body .lilspace {
+  position: relative;
+  z-index: 2;
+  gap: 10px 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 20px;
+  max-width: 700px; /* controla largura máxima */
+  margin: 20px auto; /* centraliza com margens automáticas */
+  cursor: pointer;
+}
+body .bola {
+  padding: 5px;
+  height: 50px;
+  width: 50px;
+}/*# sourceMappingURL=styles.css.map */
